@@ -1,15 +1,12 @@
-schema_version: 1
-
 context:
-  name: xh
   version: 0.23.0
 
 package:
-  name: ${{ name|lower }}
+  name: xh
   version: ${{ version }}
 
 source:
-  url: https://github.com/ducaale/${{ name }}/archive/v${{ version }}.tar.gz
+  url: https://github.com/ducaale/xh/archive/v${{ version }}.tar.gz
   sha256: c44ca41b52b5857895d0118b44075d94c3c4a98b025ed3433652519a1ff967a0
 
 build:
@@ -38,4 +35,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
