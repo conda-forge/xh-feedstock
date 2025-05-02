@@ -1,5 +1,5 @@
 context:
-  version: "0.24.0"
+  version: "0.24.1"
 
 package:
   name: xh
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ducaale/xh/archive/v${{ version }}.tar.gz
-  sha256: 80ecef9ca262b5564a951f41e11cf6125e5c4a62e66b87b071f6a333b6f40e5a
+  sha256: c5902052c66e20fd2c0b49db14edb027f54500b502108327e17260c64a42edee
 
 build:
   number: 0
